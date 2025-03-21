@@ -66,9 +66,11 @@ li:visited{
     text-decoration: none;
 }
 .divMenu{
-    background-image: linear-gradient(to top, transparent, black);
+    background-image: linear-gradient(to top, transparent, rgb(61, 61, 61));
     display: flex;
     flex-direction: row;
+    height: 65px;
+    justify-content: space-around;
 }
 #divTexto{
     float: left;
@@ -80,12 +82,31 @@ li:visited{
     justify-content: center;
 }
 #divFoto{
+    display: flex;
     float: left;
     width: 40%;
+    justify-content: center;
+    align-items: center;
 }
 #conteudo{
     padding: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    height: 650px;
+}
+#rodape{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background-image: linear-gradient(to top, #3c998ec7, transparent);
+}
+#logo{
+    max-height: 25px;
+    max-width: 25px;
+    height: auto;
+    width: auto;
 }

@@ -111,14 +111,8 @@ td{
         width: 100%;
         padding: 0;
     }
-    #divTexto{
-        font-size: medium;
-        margin-right: 0px;
-        text-align:center;
-        width: 100%;
-    }
     section{
-        overflow: auto;
+        font-size: small;
     }
     .divOpt{
         display: flex;

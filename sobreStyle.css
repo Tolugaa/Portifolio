@@ -94,6 +94,7 @@ td{
     justify-content: end;
     align-items: center;
     background-image: linear-gradient(to top, #3c998ec7, transparent);
+    font-size: 13px;
 }
 #logo{
     max-height: 25px;
@@ -130,5 +131,11 @@ td{
     }
     .logo{
         max-width: 35px;
+    }
+    footer p{
+        font-size: 8px;
+    }
+    #logo{
+        max-width: 15px;
     }
 }

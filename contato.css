@@ -80,6 +80,7 @@ li:visited{
     justify-content: end;
     align-items: center;
     background-image: linear-gradient(to top, #3c998ec7, transparent);
+    font-size:13px;
 }
 #logo{
     max-height: 25px;
@@ -107,18 +108,18 @@ li:visited{
         background-position: 100%;
         background-clip: content-box;
     }
-    #divTexto{
-        font-size: medium;
-        margin-right: 0px;
-        text-align:center;
-        width: 100%;
-    }
     .divCorpo{
         flex-direction: column;
         flex-wrap: wrap;
     }
+    h1{
+        font-size:large;
+    }
+    .contatos{
+        max-width: 40px;
+    }
     .imagem{
-        max-height: 200px;
+        max-height: 150px;
         height: auto;
         width: auto;
         border-radius: 50px;
@@ -144,5 +145,11 @@ li:visited{
     }
     .logo{
         max-width: 35px;
+    }
+    footer p{
+        font-size: 8px;
+    }
+    #logo{
+        max-width: 15px;
     }
 }

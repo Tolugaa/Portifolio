@@ -69,7 +69,7 @@ li:visited{
     background-image: linear-gradient(to top, transparent, rgb(61, 61, 61));
     display: flex;
     flex-direction: row;
-    height: 65px;
+    height: 6vh;
     justify-content: space-around;
 }
 #divTexto{
@@ -93,11 +93,11 @@ li:visited{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 650px;
+    height: 70vh;
 }
 #rodape{
     display: flex;
-    height: 100px;
+    height: 10vh;
     width: 100%;
     flex-direction: column;
     justify-content: end;

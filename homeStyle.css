@@ -110,3 +110,8 @@ li:visited{
     height: auto;
     width: auto;
 }
+@media screen (max-width: 480px){
+    #conteudo{
+        flex-direction: column;
+    }
+}

@@ -99,7 +99,7 @@ b{
     .divOpt{
         display: flex;
         flex-direction: row;
-        font-size: small;
+        font-size:x-small;
         flex-wrap: wrap;
         width: 89%;
     }

@@ -91,7 +91,7 @@ li:visited{
     padding: 50px;
     height: 70vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
 }
@@ -100,4 +100,49 @@ li:visited{
     float: left;
     justify-content: center;
     align-items: center;
+    padding-right: 100px;
+}
+@media(max-width: 700px) {
+    body{
+        background-position: 100%;
+        background-clip: content-box;
+    }
+    #divTexto{
+        font-size: medium;
+        margin-right: 0px;
+        text-align:center;
+        width: 100%;
+    }
+    .divCorpo{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .imagem{
+        max-height: 200px;
+        height: auto;
+        width: auto;
+        border-radius: 50px;
+        border: solid white 2px;
+    }
+    #divFoto{
+        float: none;
+        padding-right: 0;
+    }
+    .divOpt{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        flex-wrap: wrap;
+        width: 89%;
+    }
+    .divMenu{
+        justify-content: space-between;
+    }
+    .divLogo{
+        padding-left: 15px;
+        padding-right: 5%;
+    }
+    .logo{
+        max-width: 35px;
+    }
 }

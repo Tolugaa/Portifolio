@@ -86,3 +86,38 @@ p{
     height: auto;
     width: auto;
 }
+@media(max-width: 750px) {
+    body{
+        background-position: 100%;
+        background-clip: content-box;
+    }
+    #divTexto{
+        font-size: medium;
+        margin-right: 0px;
+        text-align:center;
+        width: 100%;
+    }
+    h1{
+        font-size: large;
+    }
+    p{
+        font-size: small;
+    }
+    .divOpt{
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        flex-wrap: wrap;
+        width: 89%;
+    }
+    .divMenu{
+        justify-content: space-between;
+    }
+    .divLogo{
+        padding-left: 15px;
+        padding-right: 5%;
+    }
+    .logo{
+        max-width: 35px;
+    }
+}
